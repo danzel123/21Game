@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+  <title></title>
+</head>
+<body>
+<div class="container">
+<header>
+  <h1>Двадцать одно</h1>
+</header>
+<main>
+    <div class="mainContent">
+<canvas id = "mainCanvas">
+</canvas>
+    <div class="buttons">
+        <div class="score"><p>игрок:<span id="uScore">0</span></p>
+            <p>противник:<span id="eScore">0</span></p></div>
+        <button class="btn" id="giveCard">Дай карту</button>
+        <button class="btn" id="stop">Хватит</button>
+        <button class="btn rules" id="rules">Правила</button>
+    </div>
+  </div>
+  <div class="modal">
+    <p id="result"></p>
+    <button class="btn" id="ok">Понял</button>
+      <button class="btn" id="opacity">Прозрачность</button>
+  </div>
+</main>
+<footer>
+    <p>Разработчик <a class="email" href="#">mrfisher123@mail.ru</a></p>
+</footer>
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="main.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.12.0/paper-full.min.js"></script>
+</body>
+</html>

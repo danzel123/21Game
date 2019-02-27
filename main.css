@@ -1,0 +1,132 @@
+#mainCanvas{
+  width: 850px;
+  height: 500px;
+    background: url("img/green.jpg");
+    border-left: solid 2px black;
+    border-bottom: solid 2px black;
+
+}
+
+main{
+    position: relative;
+}
+
+body {
+  background: lightgray;
+    font-family: 'Roboto', sans-serif;
+}
+
+.score{
+    border: 2px solid black;
+    background: #187768;
+    display: flex;
+    flex-direction: column;
+}
+
+.disabled {
+    pointer-events: none;
+    opacity: 0.9;
+}
+
+.score p{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container{
+  width: 1000px;
+  margin: 0 auto;
+  background: white;
+}
+
+header{
+  padding: 0 10px;
+  border: solid 2px black;
+  background: #27a88e;
+}
+
+h1{
+  text-align: center;
+  text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.buttons{
+  display: flex;
+  flex-direction: column;
+  border-left: 2px solid black ;
+  justify-content: space-around;
+  flex-grow: 1;
+  padding:0 10px;
+    background: #27a88e;
+    border: 2px solid black;
+    border-top:none;
+}
+
+.mainContent{
+  display: flex;
+}
+
+.btn{
+    font: inherit;
+  height: 40px;
+}
+
+.modal{
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: calc(50% - 200px);
+  left: calc(50% - 150px);
+  background: #27a88e;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+    padding: 10px 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,1);
+    border: 2px solid black;
+
+}
+
+.opacity{
+    opacity: 0.3;
+}
+
+#result{
+  text-align: center;
+}
+
+.show{
+  display: flex;
+}
+
+.btn{
+    background: #a9636d;
+    border: solid 2px black;
+}
+
+.btn:hover{
+    background: #824149;
+}
+
+.btn:active{
+    background: #824149;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+footer{
+    padding: 10px 10px;
+    background: #27a88e;
+    border: 2px solid black;
+    border-top: none;
+}
+
+footer p{
+    font-size: 15px;
+}
+
+.email{
+    text-decoration: none;
+    color: #3137a7;
+}
